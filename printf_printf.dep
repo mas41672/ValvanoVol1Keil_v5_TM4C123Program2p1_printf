@@ -1,0 +1,10 @@
+Dependencies for Project 'printf', Target 'printf': (DO NOT MODIFY !)
+F (.\startup.s)(0x519A7C74)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_printf-IC:\Users\dfb\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "TM4C123GH6PM SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\UART.c)(0x5D30A71B)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_printf-IC:\Users\dfb\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (UART.h)(0x53A5A30E)
+I (tm4c123gh6pm.h)(0x5D309AF8)
+F (.\main.c)(0x53804C52)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_printf-IC:\Users\dfb\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
